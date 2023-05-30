@@ -1,0 +1,6 @@
+1. you have to install node module in main directory and into frontend folder using 'npm install'.
+2. you have compile solidity file using 'npx hardhat compile'.
+3. you have deploy the contract using 'npx hardhat run scripts/deploy.js --network <Network>' where you can add your metamask wallet network where you want deploy your contract.
+4. you have to save that deployed address into 'CreditSystemInterface.js'.
+4. you have to change ALCHEMY_key and PRIVATE_Key into 'hardhat.config.js' file.
+5. you have to run code 'npm start' into frontend folder for run frontend.
